@@ -24,7 +24,7 @@ function agregarFila() {
   };
 
   const agregarProductos = (id) => {
-    const productoEnStock = stock.find((producto) => producto.id == id);
+    const productoEnStock = stock.find((productos) => productos.id == id);
     stock.push(productoEnStock);
   };
 
